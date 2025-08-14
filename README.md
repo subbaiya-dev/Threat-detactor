@@ -12,10 +12,3 @@ The app uses trained machine learning algorithms to analyze links, identify susp
 - **User Alerts & Details** – Displays detection results with a risk score.
 - **Simple UI** – Minimal, user-friendly design for quick decision-making.
 
-## 📂 Project Structure
-app/src/main/java/com/example/threatdetector/
-├── MainActivity.kt # Main UI and detection logic
-├── NotificationListener.kt # Intercepts incoming notifications
-├── Threat.kt # Data model for detected threats
-├── ThreatAdapter.kt # RecyclerView adapter for displaying results
-├── ml/ # (If applicable) ML model files and helper classes
